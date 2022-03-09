@@ -13,6 +13,7 @@ body {
 
 .btn-primary {
   background-color: var(--secondary-color);
+  font-size: 0.5rem;
 }
 
 .btn-primary:hover {
@@ -34,16 +35,30 @@ h4 {
   border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
   font-family: "Raleway", sans-serif;
+  font-size: 0.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.6rem;
+}
+
+h2,
+h1 {
+  font-size: 1rem;
 }
 
 /* Section: Navbar */
-nav {
+.nav {
   border-bottom: 1px solid #e6f2fb;
 }
 
 nav .navbar-brand {
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
-  font-size: 1.6rem;
   color: var(--primary-color) !important;
 }
 
@@ -70,20 +85,18 @@ nav .navbar-brand {
 
 /* Section: Hero */
 .hero .container {
-  max-width: 770px;
+  max-width: 250px;
 }
 
 .hero .container h1 {
-  line-height: 72px;
-  font-size: 3.4rem;
+  font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   color: rgb(18, 66, 101);
 }
 .hero .container h2 {
   color: rgb(94, 94, 94);
-  line-height: 26px;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 0.7rem;
   font-family: "Raleway", sans-serif;
 }
 
@@ -137,4 +150,46 @@ nav .navbar-brand {
 
 .testimonial-img {
   height: 100px;
+}
+
+/* Section: Portfolio */
+.nav-link.active {
+  background: none !important;
+  color: var(--secondary-color) !important;
+  font-weight: bold;
+}
+.portfolio-5,
+.portfolio-9 {
+  margin-top: -2rem;
+}
+.portfolio-4 {
+  margin-top: -4rem;
+}
+.portfolio-7 {
+  margin-top: -11.5rem;
+}
+
+.portfolio-8 {
+  margin-top: -10.5rem;
+}
+
+/* Section: Pricing */
+.dollar-sign {
+  color: red !important;
+}
+
+/* Section: FAQ */
+.card-header {
+  position: relative;
+  width: 100%;
+}
+
+.down-arrow {
+  position: absolute;
+  right: 2%;
+  top: 40%;
+}
+/* Section: Contact */
+.contact-p {
+  font-size: 12px;
 }

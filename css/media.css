@@ -1,0 +1,87 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .hero .container {
+    max-width: 300px;
+  }
+  .hero .container h1,
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .btn-primary,
+  .btn-outline-primary {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+  .portfolio-5,
+  .portfolio-9 {
+    margin-top: -7.5rem;
+  }
+  .portfolio-4 {
+    margin-top: -9.5rem;
+  }
+  .portfolio-7 {
+    margin-top: -42.5rem;
+  }
+
+  .portfolio-8 {
+    margin-top: -28.5rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero .container {
+    max-width: 400px;
+  }
+  .hero .container h1,
+  h2 {
+    font-size: 2rem;
+  }
+  .hero .container h2,
+  p {
+    font-size: 1rem;
+  }
+  .btn-primary {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hero .container {
+    max-width: 500px;
+  }
+  .hero .container h1 {
+    font-size: 2.4rem;
+  }
+  .hero .container h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hero .container {
+    max-width: 770px;
+  }
+
+  .hero .container h1 {
+    font-size: 3.4rem;
+    line-height: 72px;
+  }
+  .hero .container h2 {
+    line-height: 26px;
+    font-size: 1.5rem;
+  }
+
+  nav .navbar-brand {
+    font-size: 1.6rem;
+  }
+}

@@ -17,111 +17,114 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <title>OnePage</title>
   </head>
   <body>
     <!-- Section: Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white container sticky-top">
-      <a class="navbar-brand font-weight-light" href="#">OnePage</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="container-fluid sticky-top bg-white nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white container">
+        <a class="navbar-brand font-weight-light" href="#">OnePage</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mr-3 active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">Team</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item mr-3 dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-primary px-3" type="submit">Get Started</button>
-        </form>
-      </div>
-    </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-3 active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item mr-3 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-primary px-3 d-none d-sm-block" type="submit">Get Started</button>
+          </form>
+        </div>
+      </nav>
+    </div>
 
     <!-- Section: Hero -->
     <section class="hero pt-5">
       <div class="container py-2 text-center">
         <h1 class="font-weight-bolder m-0">One Page Bootstrap Website Template</h1>
         <h2 class="my-2">We are team of talented designers</h2>
-        <a href="#" class="btn btn-primary px-5 mt-4">Get started</a>
+        <a href="#" class="btn btn-primary px-lg-5 mt-lg-4">Get started</a>
       </div>
     </section>
 
     <!-- Section: Features -->
     <section class="container features py-5">
       <div class="row">
-        <div class="col-3">
-          <div class="card shadow rounded p-4">
+        <div class="col-lg-3 col-6">
+          <div class="card shadow rounded p-3 p-sm-4">
             <i class="fa fa-bullhorn mb-3 text-primary"></i>
             <h4>Lorem</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit?</p>
+            <p class="mb-0 mb-sm-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit?</p>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card shadow rounded p-4">
+        <div class="col-lg-3 col-6 mt-md-0">
+          <div class="card shadow rounded p-3 p-sm-4">
             <i class="fa fa-bug mb-3 text-primary"></i>
             <h4>Lorem</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit?</p>
+            <p class="mb-0 mb-sm-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit?</p>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card shadow rounded p-4">
+        <div class="col-lg-3 col-6 mt-2 mt-md-3 mt-lg-0">
+          <div class="card shadow rounded p-3 p-sm-4">
             <i class="fa fa-bookmark mb-3 text-primary"></i>
             <h4>Lorem</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit?</p>
+            <p class="mb-0 mb-sm-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit?</p>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card shadow rounded p-4">
+        <div class="col-lg-3 col-6 mt-2 mt-md-3 mt-lg-0">
+          <div class="card shadow rounded p-3 p-sm-4">
             <i class="fa fa-code mb-3 text-primary"></i>
             <h4>Lorem</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit?</p>
+            <p class="mb-0 mb-sm-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit?</p>
           </div>
         </div>
       </div>
@@ -143,13 +146,16 @@
               </p>
               <div>
                 <p class="m-0">
-                  <i class="fa fa-check mb-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus eius
+                  <i class="fa fa-check mb-sm-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus
+                  eius
                 </p>
                 <p class="m-0">
-                  <i class="fa fa-check mb-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus eius
+                  <i class="fa fa-check mb-sm-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus
+                  eius
                 </p>
                 <p class="m-0">
-                  <i class="fa fa-check mb-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus eius
+                  <i class="fa fa-check mb-sm-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus
+                  eius
                 </p>
               </div>
             </div>
@@ -201,23 +207,26 @@
     <!-- Section: About video -->
     <section class="container py-5">
       <div class="row">
-        <div class="col-6 p-0">
+        <div class="col-12 col-sm-6 p-0">
           <img class="img-fluid" src="img/about-video.PNG" alt="about video" />
         </div>
-        <div class="col-6">
+        <div class="col-12 col-sm-6 mt-3 mt-sm-0">
           <h4 class="font-weight-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
           <p class="font-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua.
           </p>
           <p class="m-0">
-            <i class="fa fa-check mb-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus eius
+            <i class="fa fa-check mb-md-2 mb-lg-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus
+            eius
           </p>
           <p class="m-0">
-            <i class="fa fa-check mb-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus eius
+            <i class="fa fa-check mb-md-2 mb-lg-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus
+            eius
           </p>
           <p class="m-0">
-            <i class="fa fa-check mb-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus eius
+            <i class="fa fa-check mb-md-2 mb-lg-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus
+            eius
           </p>
           <p class="m-0">
             <i class="fa fa-check mb-3 text-primary mr-2"></i>Magnam dolores commodi suscipit. Necessitatibus eius
@@ -235,32 +244,32 @@
     <section class="container-fluid py-5 bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-2">
+          <div class="col-4 col-md-2">
             <div>
               <img class="img clients-img" src="img/client-1.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-4 col-md-2">
             <div>
               <img class="img clients-img" src="img/client-2.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-4 col-md-2">
             <div>
               <img class="img clients-img" src="img/client-3.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-4 col-md-2 mt-3 mt-md-0">
             <div>
               <img class="img clients-img" src="img/client-4.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-4 col-md-2 mt-3 mt-md-0">
             <div>
               <img class="img clients-img" src="img/client-5.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-4 col-md-2 mt-3 mt-md-0">
             <div>
               <img class="img clients-img" src="img/client-6.png" alt="" />
             </div>
@@ -288,7 +297,7 @@
         <div class="carousel-inner mt-3">
           <div class="carousel-item active">
             <div class="row">
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -308,7 +317,7 @@
                   <p class="text-center text-muted">CEO & Founder</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -328,7 +337,7 @@
                   <p class="text-center text-muted">Designer</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -352,7 +361,7 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -372,7 +381,7 @@
                   <p class="text-center text-muted">Designer</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -392,7 +401,7 @@
                   <p class="text-center text-muted">Store Owner</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -416,7 +425,7 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -436,7 +445,7 @@
                   <p class="text-center text-muted">CEO & Founder</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -456,7 +465,7 @@
                   <p class="text-center text-muted">Designer</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -480,7 +489,7 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -500,7 +509,7 @@
                   <p class="text-center text-muted">CEO & Founder</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -520,7 +529,7 @@
                   <p class="text-center text-muted">Designer</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -544,7 +553,7 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -564,7 +573,7 @@
                   <p class="text-center text-muted">CEO & Founder</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -584,7 +593,7 @@
                   <p class="text-center text-muted">Designer</p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <div class="card border-0">
                   <div class="block-quote d-block mx-auto p-3">
                     <i class="fas fa-quote-left text-light"></i>
@@ -620,7 +629,7 @@
           in iste officiis commodi quidem hic quas.
         </p>
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-sm-4">
             <div class="card p-5 my-2 border-0">
               <img
                 src="img/testimonials-1.jpg"
@@ -634,7 +643,7 @@
               </p>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-sm-4">
             <div class="card p-5 my-2 border-0">
               <img
                 src="img/testimonials-2.jpg"
@@ -648,7 +657,7 @@
               </p>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-sm-4">
             <div class="card p-5 my-2 border-0">
               <img
                 src="img/testimonials-3.jpg"
@@ -662,7 +671,7 @@
               </p>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-sm-4">
             <div class="card p-5 my-2 border-0">
               <img
                 src="img/testimonials-1.jpg"
@@ -676,7 +685,7 @@
               </p>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-sm-4">
             <div class="card p-5 my-2 border-0">
               <img
                 src="img/testimonials-2.jpg"
@@ -690,7 +699,7 @@
               </p>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-sm-4">
             <div class="card p-5 my-2 border-0">
               <img
                 src="img/testimonials-3.jpg"
@@ -721,6 +730,385 @@
       </div>
     </section>
 
+    <!-- Section: Portfolio -->
+    <section class="container py-5 bg-white">
+      <h2 class="text-center m-0 font-weight-bold">PORTFOLIO</h2>
+      <p class="text-muted text-center my-3">
+        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.
+      </p>
+      <div class="d-flex flex-column justify-content-center align-items-center mt-3">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="pills-home-tab"
+              data-toggle="pill"
+              href="#pills-home"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+              >ALL</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="pills-profile-tab"
+              data-toggle="pill"
+              href="#pills-profile"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+              >APP</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="pills-contact-tab"
+              data-toggle="pill"
+              href="#pills-contact"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+              >CARD</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row">
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-1.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-2.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-3.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-6.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-5.jpg" class="img-fluid portfolio-5" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-4.jpg" class="img-fluid portfolio-4" alt="" />
+                </div>
+              </div>
+              <div class="col-4 offset-4">
+                <div class="m-2">
+                  <img src="img/portfolio-9.jpg" class="img-fluid portfolio-9" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-7.jpg" class="img-fluid portfolio-7" alt="" />
+                </div>
+              </div>
+              <div class="col-4 offset-8">
+                <div class="m-2">
+                  <img src="img/portfolio-8.jpg" class="img-fluid portfolio-8" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row">
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-1.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-2.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-3.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="row">
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-4.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-7.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="m-2">
+                  <img src="img/portfolio-8.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Teams -->
+    <section class="container-fluid py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center m-0 font-weight-bold">TEAM</h2>
+        <p class="text-muted text-center my-3">
+          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.
+        </p>
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="img/team-1.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="text-center">Walter White</h5>
+                <p class="card-text text-center">Chief Executive Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="img/team-2.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="text-center">Walter White</h5>
+                <p class="card-text text-center">Chief Executive Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="img/team-3.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="text-center">Walter White</h5>
+                <p class="card-text text-center">Chief Executive Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="img/team-4.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="text-center">Walter White</h5>
+                <p class="card-text text-center">Chief Executive Officer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sections: Pricing -->
+    <section class="container py-5 bg-white">
+      <h2 class="text-center m-0 font-weight-bold">PRICING</h2>
+      <p class="text-muted text-center my-3">
+        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.
+      </p>
+      <div class="row">
+        <div class="col-4">
+          <div class="card text-center py-4 d-flex flex-column">
+            <h5>Free</h5>
+            <p class="text-muted d-flex align-items-baseline justify-content-center">
+              <span class="text-primary align-self-start mt-2">$</span
+              ><span class="text-primary display-4">0</span>/month
+            </p>
+            <p>Aida dere</p>
+            <p>Nec feugiat nisl</p>
+            <p>Nulla at volutpat dola</p>
+            <p class="text-muted"><del> Pharetra massa</del></p>
+            <p class="text-muted"><del> Massa ultricies mi</del></p>
+            <a href="#" class="btn btn-outline-primary mx-auto px-4">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center py-4 bg-primary text-light d-flex flex-column">
+            <h5>Business</h5>
+            <p class="text-light d-flex align-items-baseline justify-content-center">
+              <span class="text-light align-self-start mt-2">$</span><span class="text-light display-4">19</span>/month
+            </p>
+            <p>Aida dere</p>
+            <p>Nec feugiat nisl</p>
+            <p>Nulla at volutpat dola</p>
+            <p><del> Pharetra massa</del></p>
+            <p><del> Massa ultricies mi</del></p>
+            <a href="#" class="btn btn-outline-light mx-auto px-4">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center py-4 d-flex flex-column">
+            <h5>Developer</h5>
+            <p class="text-muted d-flex align-items-baseline justify-content-center">
+              <span class="text-primary align-self-start mt-2">$</span
+              ><span class="text-primary display-4">29</span>/month
+            </p>
+            <p>Aida dere</p>
+            <p>Nec feugiat nisl</p>
+            <p>Nulla at volutpat dola</p>
+            <p class="text-muted"><del> Pharetra massa</del></p>
+            <p class="text-muted"><del> Massa ultricies mi</del></p>
+            <a href="#" class="btn btn-outline-primary mx-auto px-4">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: FAQ -->
+    <section class="container-fluid py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center m-0 font-weight-bold">FREQUENTLY ASKED QUESTIONS</h2>
+        <p class="text-muted text-center my-3">
+          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.
+        </p>
+      </div>
+      <div id="accordion" class="container">
+        <div class="card">
+          <div class="card-header bg-white" id="headingOne">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link text-primary font-weight-bold"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <i class="fa fa-info-circle mr-2" aria-hidden="true"></i>Non consectetur a erat nam at lectus urna duis?
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">1</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-white" id="headingTwo">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed text-primary font-weight-bold"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <i class="fa fa-info-circle mr-2" aria-hidden="true"></i>Non consectetur a erat nam at lectus urna duis?
+
+                <i class="fa fa-angle-down down-arrow" aria-hidden="true"></i>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">2</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section class="container py-5 bg-white">
+      <h2 class="text-center m-0 font-weight-bold">CONTACT</h2>
+      <p class="text-muted text-center my-3">
+        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.
+      </p>
+      <img src="img/map.PNG" class="img-fluid" alt="" srcset="" />
+      <div class="row my-3">
+        <div class="col-4">
+          <div class="d-flex align-items-center">
+            <div class="icon-container px-4 py-3 bg-primary rounded">
+              <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
+            </div>
+            <div class="ml-3">
+              <h5 class="m-0">Location</h5>
+              <p class="m-0 contact-p">A108 Adam Street, New York, NY 535022</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center my-3">
+            <div class="icon-container px-4 py-3 bg-primary rounded">
+              <i class="fa fa-envelope text-white" aria-hidden="true"></i>
+            </div>
+            <div class="ml-3">
+              <h5 class="m-0">Email:</h5>
+              <p class="m-0 contact-p">info@example.com</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center my-3">
+            <div class="icon-container px-4 py-3 bg-primary rounded">
+              <i class="fa fa-phone text-white" aria-hidden="true"></i>
+            </div>
+            <div class="ml-3">
+              <h5 class="m-0">Call:</h5>
+              <p class="m-0 contact-p">+1 5589 55488 55s</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-6">
+              <div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Your Name"
+                />
+              </div>
+            </div>
+            <div class="col-6">
+              <div>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Your Email"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-12">
+              <div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Subject"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
